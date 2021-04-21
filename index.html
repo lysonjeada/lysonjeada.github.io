@@ -8,50 +8,53 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/component/banner.css">
-  <link rel="stylesheet" href="css/component/section.css">
+  <link rel="stylesheet" href="css/component/main-banner.css">
+  <link rel="stylesheet" href="css/component/main-section.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/component/main-title.css">
-  <link rel="stylesheet" href="css/component/subtitle.css">
+  <link rel="stylesheet" href="css/component/main-subtitle.css">
   <link rel="stylesheet" href="css/component/skill-tec.css">
-  <link rel="stylesheet" href="css/component/box.css">
-  <link rel="stylesheet" href="css/component/button.css">
+  <link rel="stylesheet" href="css/component/main-box.css">
+  <link rel="stylesheet" href="css/component/main-header.css">
+  <link rel="stylesheet" href="css/component/main-button.css">
   <link rel="stylesheet" href="css/component/progress-bar.css">
   <link rel="stylesheet" href="css/component/wrapper-skill.css">
+  <link rel="stylesheet" href="css/component/wrapper-card.css">
   <link rel="stylesheet" href="css/component/card-project.css">
+  <link rel="stylesheet" href="css/component/main-action.css">
 
   
 
 </head>
 <body>
-  <header>
+  <header class="main-header">
     <img src="assets/img/icone.png" alt="Avatar da Amaryllis">
     
     <nav>
-      <a href="">Habilidades</a>
-      <a href="">Projetos</a>
-      <a href="">Sobre</a>
-      <a href="">Contatos</a>
-      <a class="button" href="">Baixe meu CV</a>
+      <a class="main-action" href="">Habilidades</a>
+      <a class="main-action" href="">Projetos</a>
+      <a class="main-action" href="">Sobre</a>
+      <a class="main-action" href="">Contatos</a>
+      <a class="main-button" href="">Baixe meu CV</a>
     </nav>
   </header>
 
-  <section class="banner">
+  <section class="main-banner">
     <div class="wrapper">
-      <div class="box">
+      <div class="main-box">
         <h2 class="main-title">Amaryllis</h2>
-        <h3 class="subtitle">Desenvolvedora BackEnd</h3>
+        <h3 class="main-subtitle">Desenvolvedora BackEnd</h3>
       </div>
 
       <div class="navigation">
-        <a class="button" href="">Baixe meu CV</a>
-      <a class="button" href="">Contatos</a>
+        <a class="main-button" href="">Baixe meu CV</a>
+      <a class="main-button" href="">Contatos</a>
       </div>
       
     </div>
   </section>
 
-  <section class="section">
+  <section class="main-section">
     <h2 class="main-title -second">Habilidades</h2>
 
     <div class="wrapper-skill">
@@ -131,16 +134,25 @@
   </div>
   </section>
 
-  <section class="section">
-    <figure class="card-project">
-      <img class="logo" src="/assets/img/logo-firedlabs.png" alt="Logo da FiredLabs"> 
-    </figure>
-    <figure class="card-project -blue">
-      <img class="logo" src="/assets/img/logo-collabcode.png" alt="Logo da CollabCode"> 
-    </figure>
-    <figure class="card-project">
-      <img class="logo" src="/assets/img/portfolio (2).png" alt="Avatar do Marco Bruno"> 
-    </figure>
+  <section class="main-section -bgBlack -bdFirst">
+    <h2 class="main-title -second">Projetos</h2>
+      <div class="wrapper-card">
+        <a href="https://www.twitch.tv/lysonjeada" target="_blank">
+          <figure class="card-project">
+            <img class="logo" src="/assets/img/logo-firedlabs.png" alt="Logo da FiredLabs"> 
+          </figure>
+        </a>
+        <a href="https://github.com/lysonjeada" target="_blank">
+          <figure class="card-project -blue">
+            <img class="logo" src="/assets/img/logo-collabcode.png" alt="Logo da CollabCode"> 
+          </figure>
+        </a>
+        <a href="https://lysonjeada.github.io/">
+          <figure class="card-project">
+            <img class="logo" src="/assets/img/portfolio (2).png" alt="Avatar do Marco Bruno"> 
+          </figure>
+        </a>
+      </div>
   </section>
 </body>
 </html>
